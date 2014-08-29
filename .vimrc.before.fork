@@ -1,1 +1,3 @@
-let g:spf13_bundle_groups=['general', 'writing',  'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'go', 'youcompleteme',]
+let g:spf13_bundle_groups=['general', 'go', 'programming', 'neocomplete'] " [ 'writing',  'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'youcompleteme',]
+
+let g:airline_powerline_fonts = 1
