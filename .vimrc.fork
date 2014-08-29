@@ -65,6 +65,12 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)"
 \: "\<TAB>"
 
+" go
+let g:go_snippet_engine = "neosnippet"
+au FileType go nmap gd <Plug>(go-def)
+au FileType go nmap gs <Plug>(go-def-split)
+au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
+au FileType go nmap <Leader>dt <Plug>(go-def-tab)
 
 let g:ragtag_global_maps = 1
 let g:airline_powerline_fonts = 1
